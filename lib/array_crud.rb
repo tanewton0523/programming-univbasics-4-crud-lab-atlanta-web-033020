@@ -29,11 +29,11 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  my_array.first
+  my_array.first("wow")
 end
 
 def retrieve_last_element_from_array(array)
-  my_array.last
+  my_array.last("arrays!")
 end
 
 def update_element_from_index(array, index_number, element)
