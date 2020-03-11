@@ -13,27 +13,27 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  my_array.unshift("wow")
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  my_array.pop("arrays!")
+  array.pop("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
-  my_array.shift("wow")
+  array.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
-  my_array[2]
+  array[2]
 end
 
 def retrieve_first_element_from_array(array)
-  my_array.first("wow")
+  array.first("wow")
 end
 
 def retrieve_last_element_from_array(array)
-  my_array.last("arrays!")
+  array.last("arrays!")
 end
 
 def update_element_from_index(array, index_number, element)
